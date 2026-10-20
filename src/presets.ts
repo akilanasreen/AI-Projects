@@ -1,0 +1,88 @@
+import { SceneData } from './types';
+
+export const INITIAL_SCENES: SceneData[] = [
+  {
+    id: 'scene-arjun-hook',
+    title: 'Scene 1: Hook - Online Shopping Warning (Arjun)',
+    language: 'Tamil',
+    voiceOver: `Online-ல ஏதாவது வாங்கப் போறீங்களா? (beat)\n\nஒரு நிமிஷம்… உடனே Buy பட்டனை அழுத்தாதீங்க.\n\nவாங்குறதுக்கு முன்னாடி இந்த மூணு விஷயத்தை செக் பண்ணுங்க.`,
+    voiceOverMeaning: 'Are you planning to buy something online? (beat) Wait a moment… don’t press the Buy button right away. Check these three things before purchasing.',
+    characterIdentity: 'A 28-year-old Tamil Indian man named Arjun, medium brown skin, short neatly styled black hair, trimmed short beard, expressive dark brown eyes, wearing a solid dark-blue casual shirt and black trousers. Do not change clothing, hairstyle, beard, facial structure, skin tone, or age across scenes.',
+    environmentLock: 'Inside the same bright modern Indian home throughout the video, clean contemporary kitchen and dining area, warm beige walls, light wooden table, subtle green indoor plant, soft natural daylight entering through a nearby window. Keep furniture, wall colors, table, plant, and overall layout identical across scenes.',
+    characterAction: 'Arjun sits at the light wooden table and browses an online shopping product on his smartphone. He moves his finger toward the purchase button, then pauses before tapping it and looks thoughtfully at the screen.',
+    cameraMovement: 'Begin with a medium front-facing shot of Arjun at the table, then slowly dolly forward toward his smartphone and hand.',
+    lightingAndAtmosphere: 'Soft warm natural daylight fills the room. The atmosphere feels relatable, clean, modern, trustworthy, and suitable for a Tamil shopping tips channel.',
+    aspectRatio: '9:16',
+    resolution: '720p',
+  },
+  {
+    id: 'scene-arjun-tip1',
+    title: 'Scene 2: Tip 1 - Check Seller Rating & Fake Reviews',
+    language: 'Tamil',
+    voiceOver: `டிப் நம்பர் 1: ரேட்டிங் மட்டும் பாக்காதீங்க! ரீசென்ட் 1-Star ரிவியூஸை ஓபன் பண்ணி, வாங்குனவங்க உண்மையான குறைகளை என்ன சொல்லிருக்காங்கன்னு நோட் பண்ணுங்க.`,
+    voiceOverMeaning: 'Tip Number 1: Don’t just look at the overall star rating! Open the recent 1-star reviews and note what verified buyers said about real issues.',
+    characterIdentity: 'A 28-year-old Tamil Indian man named Arjun, medium brown skin, short neatly styled black hair, trimmed short beard, expressive dark brown eyes, wearing a solid dark-blue casual shirt and black trousers. Do not change clothing, hairstyle, beard, facial structure, skin tone, or age across scenes.',
+    environmentLock: 'Inside the same bright modern Indian home throughout the video, clean contemporary kitchen and dining area, warm beige walls, light wooden table, subtle green indoor plant, soft natural daylight entering through a nearby window. Keep furniture, wall colors, table, plant, and overall layout identical across scenes.',
+    characterAction: 'Arjun holds his smartphone closer to the camera, tapping the seller profile tab with an analytical, focused expression and pointing cautioningly at the screen.',
+    cameraMovement: 'Over-the-shoulder shot starting on Arjun’s profile, smoothly panning and dollying into the smartphone screen showing ratings breakdown.',
+    lightingAndAtmosphere: 'Soft warm natural daylight fills the room. Relatable, crisp modern interior, clean neutral color tones, cinema-grade depth of field.',
+    aspectRatio: '9:16',
+    resolution: '720p',
+  },
+  {
+    id: 'scene-arjun-tip2',
+    title: 'Scene 3: Tip 2 - Price Tracker History Check',
+    language: 'Tamil',
+    voiceOver: `டிப் நம்பர் 2: 60% ஆஃபர்னு சொல்றாங்களா? உண்மையா விலை குறைஞ்சிருக்கா இல்ல சேலுக்கு முன்னாடி விலையை ஏத்தி வச்சிருக்காங்களானு Price History Tracker-ல பாருங்க!`,
+    voiceOverMeaning: 'Tip Number 2: Do they claim 60% off? Check a Price History Tracker to see if the price actually dropped or if it was artificially hiked before the sale!',
+    characterIdentity: 'A 28-year-old Tamil Indian man named Arjun, medium brown skin, short neatly styled black hair, trimmed short beard, expressive dark brown eyes, wearing a solid dark-blue casual shirt and black trousers. Do not change clothing, hairstyle, beard, facial structure, skin tone, or age across scenes.',
+    environmentLock: 'Inside the same bright modern Indian home throughout the video, clean contemporary kitchen and dining area, warm beige walls, light wooden table, subtle green indoor plant, soft natural daylight entering through a nearby window. Keep furniture, wall colors, table, plant, and overall layout identical across scenes.',
+    characterAction: 'Arjun looks up from his smartphone directly into the camera lens with a knowing smile, raising two fingers for tip #2 and gesturing to the viewer.',
+    cameraMovement: 'Medium close-up shot maintaining eye level, steady camera with gentle slow push-in as Arjun speaks directly to the audience.',
+    lightingAndAtmosphere: 'Bright daylight streaming through the window, warm ambient fill, professional YouTube creator aesthetic.',
+    aspectRatio: '9:16',
+    resolution: '720p',
+  },
+  {
+    id: 'scene-arjun-tip3',
+    title: 'Scene 4: Tip 3 - Return Policy & Warranty Fineprint',
+    language: 'Tamil',
+    voiceOver: `டிப் நம்பர் 3: '7-Day Return' இருக்கா இல்ல 'Replacement Only'-ஆனு பாருங்க. பணம் வேஸ்ட் ஆகாம இருக்க, இந்த வீடியோவை உங்க நண்பர்களுக்கு ஷேர் பண்ணுங்க!`,
+    voiceOverMeaning: 'Tip Number 3: Check whether it has a 7-day Return policy or Replacement Only. To save money, share this video with your friends!',
+    characterIdentity: 'A 28-year-old Tamil Indian man named Arjun, medium brown skin, short neatly styled black hair, trimmed short beard, expressive dark brown eyes, wearing a solid dark-blue casual shirt and black trousers. Do not change clothing, hairstyle, beard, facial structure, skin tone, or age across scenes.',
+    environmentLock: 'Inside the same bright modern Indian home throughout the video, clean contemporary kitchen and dining area, warm beige walls, light wooden table, subtle green indoor plant, soft natural daylight entering through a nearby window. Keep furniture, wall colors, table, plant, and overall layout identical across scenes.',
+    characterAction: 'Arjun gives a confident thumbs-up gesture, places his smartphone flat on the light wooden table, and smiles warmly at the viewer.',
+    cameraMovement: 'Medium wide shot slowly pulling back to reveal the clean kitchen and dining environment, smooth cinematic stop.',
+    lightingAndAtmosphere: 'Cozy, authentic warm daylight, modern Indian home interior, crisp 4k visual fidelity.',
+    aspectRatio: '9:16',
+    resolution: '720p',
+  },
+  {
+    id: 'scene-kavitha-tech',
+    title: 'Tech Reviewer: Kavitha - Tamil Smartphone Review',
+    language: 'Tamil',
+    voiceOver: `வணக்கம் மக்களே! இந்த புதிய 5G போன் உண்மையிலேயே 20 ஆயிரம் ரூபாய்க்கு வர்த்தா? (beat) கேமரா டெஸ்ட் பண்ணி பாக்கலாம் வாங்க!`,
+    voiceOverMeaning: 'Hello everyone! Is this new 5G phone genuinely worth 20,000 rupees? (beat) Let’s test the camera right now!',
+    characterIdentity: 'A 26-year-old Tamil Indian woman named Kavitha, warm dusky complexion, black hair tied in a neat low ponytail, gentle friendly smile, wearing a mustard yellow linen top and silver stud earrings. Maintain facial features, attire, and hair across scenes.',
+    environmentLock: 'Clean minimalist modern Tamil tech studio desk, matte gray background, soft neon blue backlight accent, wooden desk surface, aesthetic acoustic wall paneling. Keep backdrop identical.',
+    characterAction: 'Kavitha holds up a sleek smartphone in matte black, turning it at a 45-degree angle to catch the studio light and inspect the triple camera bump.',
+    cameraMovement: 'Cinematic glide shot moving horizontally around the phone in her hands before tilting up to her enthusiastic face.',
+    lightingAndAtmosphere: 'Professional three-point YouTube studio lighting with soft diffuse key light and subtle cyan rim light.',
+    aspectRatio: '16:9',
+    resolution: '720p',
+  },
+];
+
+export function compileVeoPrompt(scene: SceneData): string {
+  const parts: string[] = [
+    `Cinematic hyperrealistic video in photorealistic 4K quality.`,
+    `Subject & Character: ${scene.characterIdentity.trim()}`,
+    `Location & Environment Lock: ${scene.environmentLock.trim()}`,
+    `Action & Performance: ${scene.characterAction.trim()}`,
+    `Camera Cinematography: ${scene.cameraMovement.trim()}`,
+    `Lighting & Mood: ${scene.lightingAndAtmosphere.trim()}`,
+    `Details: Natural human skin pores, authentic expressions, realistic fabric folds, 35mm lens, optical bokeh, consistent character identity, television commercial quality.`,
+  ];
+
+  return parts.filter(Boolean).join(' ');
+}
